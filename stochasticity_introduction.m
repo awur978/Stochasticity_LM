@@ -67,7 +67,6 @@ noise = 1.0;
 mingrad = 1e-07;
 numNN = 1; %repetition
 
-
 % nettansig.layers{1}.transferFcn = 'tansig';
 % nettansig.layers{2}.transferFcn = 'tansig';
 % netelliot.layers{1}.transferFcn = 'elliotsig';
@@ -97,7 +96,6 @@ netelliot.trainParam.epochs = count;
 netelliot.trainParam.min_grad = mingrad;
 netelliot.trainParam.mc = momentum;
 netelliot.trainParam.lr = learning_rate;
-
 
 %Elliotsig Network with stochasticity
 netelliotR = net;
